@@ -1,0 +1,166 @@
+/* --- WEBSITE WIDE */
+
+html {
+    background-color: #3a3c3b;
+    width: 100%;
+}
+
+h1, h2, label {
+    color: #ffffff;
+}
+
+/* ### WEBSITE WIDE */
+
+/* --- NAVIGATION BAR --- */
+
+.title {
+    float: left;
+}
+
+.title>h1 {
+    display: inline;
+    margin-left: 7em;
+}
+
+ul {
+    background-color: #2A2C2B;
+    padding: 20px;
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    font-size: x-large;
+}
+
+.route {
+    padding: 20px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.routes {
+    padding: 20px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 4em;
+}
+
+
+a:hover {
+    background-color: cornflowerblue;
+    text-decoration: underline;
+}
+
+/* ### NAVIGATION BAR ###*/
+
+/* --- HOMEPAGE --- */
+
+.home {
+    text-align: center;
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.logo {
+    margin: 60px;
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+    border: 2px solid #ffffff;
+    border-radius: 130px;
+}
+
+.home h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+/* ### HOMEPAGE ### */
+
+/* --- STOCKS PAGE --- */
+
+.stocks h1 {
+    text-align: center;
+}
+
+.stockSearch {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 900px;
+}
+
+.stockTable {
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.symbolSearch {
+    width: 400px;
+    display: inline-block;
+}
+
+.symbolInput {
+    width: 324px;
+    height: 32px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.symbolSearchButton {
+    width: 65px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.industrySearch>label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.industrySearch {
+    float: right;
+    width: 400px;
+}
+
+/* ### STOCKS PAGE ### */
+
+/* --- STOCK DETAIL PAGE --- */
+
+.stockDetail h1 {
+    text-align: center;
+}
+
+.dateSearch {
+    margin-left: 40px;
+}
+
+.datePicker {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+}
+
+.stockDetailTable {
+    height: 400px;
+    width: 1200px;
+    margin: auto;
+}
+
+.detailChart {
+    width: 1200px;
+    margin: 20px auto 100px;
+}
+
+/* ### STOCK DETAIL PAGE --- */
