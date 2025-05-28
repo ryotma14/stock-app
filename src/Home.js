@@ -10,6 +10,8 @@ function HomeIntro() {
                 all the stocks or search to view the latest 100 days of activity. </h2>
         </div>
     );
+
+
 }
 
 function Home() {
